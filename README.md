@@ -40,7 +40,7 @@ utils.py                        # Aux func for image manipulation
 models/                         # Directory to save the trained model
 
 
-└── face_mask_model.h5          # Detection model for trained mask
+└── face_mask_model.keras          # Detection model for trained mask
 
 
 dataset/                        # Directory for train data and tests (image of the face with/without mask)
