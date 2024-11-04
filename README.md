@@ -46,9 +46,6 @@ train_model.py                  # Script to train models of mask detection
 mask_detector.py                # Inf func of the detection model
 
 
-utils.py                        # Aux func for image manipulation
-
-
 models/                         # Directory to save the trained model
 
 
