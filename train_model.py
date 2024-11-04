@@ -37,7 +37,7 @@ def train():
 
     model = create_model()
     model.fit(train_gen, validation_data=val_gen, epochs=10)
-    model.save('models/face_mask_model.h5')
+    model.save('models/face_mask_model.keras')
 
 if __name__ == "__main__":
     train()

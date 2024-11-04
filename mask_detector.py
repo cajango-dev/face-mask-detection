@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # Carregar modelo
-model = tf.keras.models.load_model('models/face_mask_model.h5')
+model = tf.keras.models.load_model('models/face_mask_model.keras')
 
 def detect_mask(frame):
     # Pré-processar a imagem
