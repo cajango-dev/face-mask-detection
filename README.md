@@ -9,11 +9,23 @@ ______________________________________________
 # Libraries for a project like this: 
 
 Opencv -> **pip install opencv-python**
+
+
 Imutils -> **pip install imutils**
+
+
 Numpy -> **pip install numpy**
+
+
 Scipy -> **pip install scipy**
+
+
 TensorFlow -> **pip install tensorflow** (Optional neural network)
+
+
 Pytorch -> **pip install torch torchvision** (Optional neural network)
+
+
 Mediapipe -> **pip install mediapipe** (Optional face detection easy way)
 
 ______________________________________________
