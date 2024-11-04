@@ -8,7 +8,7 @@ def main():
         if not ret:
             break
 
-        frame = detect_mask(frame)
+        frame = detect_mask(frame, threshold=0.4)  # Chamando com o novo threshold ajustável
         cv2.imshow('Face Mask Detection', frame)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
